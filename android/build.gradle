@@ -1,10 +1,12 @@
+apply from: 'gradle-maven-push.gradle'
+
 buildscript {
     repositories {
         jcenter()
     }
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:2.1.+'
+        classpath 'com.android.tools.build:gradle:2.2.0'
     }
 }
 
@@ -26,9 +28,9 @@ android {
 }
 
 repositories {
-    jcenter()
+    maven { url 'http://airbnb-maven-proxy.d.musta.ch/nexus/content/groups/public' }
 }
 
 dependencies {
-    compile 'com.facebook.react:react-native:+'
+    compile 'com.facebook.react:react-native:0.34.0'
 }

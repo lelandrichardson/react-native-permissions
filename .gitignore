@@ -1,2 +1,4 @@
 android/react-native-permissions.iml
 android/build
+*.iml
+.idea
