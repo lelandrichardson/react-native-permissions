@@ -15,6 +15,7 @@
 #import <React/RCTEventDispatcher.h>
 
 #import "RNPPhoto.h"
+
 @interface ReactNativePermissions()
 @end
 
