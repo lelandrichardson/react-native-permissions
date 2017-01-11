@@ -7,9 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-<<<<<<< HEAD
-=======
-		2894D7D21E25876700401A74 /* RNPSpeechRecognition.m in Sources */ = {isa = PBXBuildFile; fileRef = 2894D7D11E25876700401A74 /* RNPSpeechRecognition.m */; };
+		281CD5911E26B0C8003A72B2 /* RNPSpeechRecognition.m in Sources */ = {isa = PBXBuildFile; fileRef = 281CD5901E26B0C7003A72B2 /* RNPSpeechRecognition.m */; };
 		9D46283E1D34719100346A5B /* RNPAudioVideo.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D46282F1D34719100346A5B /* RNPAudioVideo.m */; };
 		9D46283F1D34719100346A5B /* RNPBackgroundRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D4628311D34719100346A5B /* RNPBackgroundRefresh.m */; };
 		9D4628401D34719100346A5B /* RNPBluetooth.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D4628331D34719100346A5B /* RNPBluetooth.m */; };
@@ -17,7 +15,6 @@
 		9D4628421D34719100346A5B /* RNPEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D4628371D34719100346A5B /* RNPEvent.m */; };
 		9D4628431D34719100346A5B /* RNPLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D4628391D34719100346A5B /* RNPLocation.m */; };
 		9D4628441D34719100346A5B /* RNPNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D46283B1D34719100346A5B /* RNPNotification.m */; };
->>>>>>> Add iOS speech recognition
 		9D4628451D34719100346A5B /* RNPPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D46283D1D34719100346A5B /* RNPPhoto.m */; };
 		9DE8D2821CA3188D009CE8CC /* ReactNativePermissions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DE8D2811CA3188D009CE8CC /* ReactNativePermissions.m */; };
 		9DE8D28B1CA31E95009CE8CC /* RCTConvert+RNPStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DE8D28A1CA31E95009CE8CC /* RCTConvert+RNPStatus.m */; };
@@ -36,9 +33,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-<<<<<<< HEAD
-		9D23B34F1C767B80008B4819 /* libReactNativePermissions.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libReactNativePermissions.a; sourceTree = BUILT_PRODUCTS_DIR; };
-=======
 		2894D7D01E25876700401A74 /* RNPSpeechRecognition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RNPSpeechRecognition.h; path = permissions/RNPSpeechRecognition.h; sourceTree = SOURCE_ROOT; };
 		2894D7D11E25876700401A74 /* RNPSpeechRecognition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RNPSpeechRecognition.m; path = permissions/RNPSpeechRecognition.m; sourceTree = SOURCE_ROOT; };
 		9D46282E1D34719100346A5B /* RNPAudioVideo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RNPAudioVideo.h; path = permissions/RNPAudioVideo.h; sourceTree = SOURCE_ROOT; };
@@ -55,7 +49,6 @@
 		9D4628391D34719100346A5B /* RNPLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RNPLocation.m; path = permissions/RNPLocation.m; sourceTree = SOURCE_ROOT; };
 		9D46283A1D34719100346A5B /* RNPNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RNPNotification.h; path = permissions/RNPNotification.h; sourceTree = SOURCE_ROOT; };
 		9D46283B1D34719100346A5B /* RNPNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RNPNotification.m; path = permissions/RNPNotification.m; sourceTree = SOURCE_ROOT; };
->>>>>>> Add iOS speech recognition
 		9D46283C1D34719100346A5B /* RNPPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RNPPhoto.h; path = permissions/RNPPhoto.h; sourceTree = SOURCE_ROOT; };
 		9D46283D1D34719100346A5B /* RNPPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RNPPhoto.m; path = permissions/RNPPhoto.m; sourceTree = SOURCE_ROOT; };
 		9DE8D2801CA31888009CE8CC /* ReactNativePermissions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReactNativePermissions.h; sourceTree = SOURCE_ROOT; };
@@ -103,13 +96,9 @@
 			path = ReactNativePermissions;
 			sourceTree = "<group>";
 		};
-<<<<<<< HEAD
-=======
 		9D4628091D33C1EC00346A5B /* permissions */ = {
 			isa = PBXGroup;
 			children = (
-				2894D7D01E25876700401A74 /* RNPSpeechRecognition.h */,
-				2894D7D11E25876700401A74 /* RNPSpeechRecognition.m */,
 				9D46282E1D34719100346A5B /* RNPAudioVideo.h */,
 				9D46282F1D34719100346A5B /* RNPAudioVideo.m */,
 				9D4628301D34719100346A5B /* RNPBackgroundRefresh.h */,
@@ -124,9 +113,12 @@
 				9D4628391D34719100346A5B /* RNPLocation.m */,
 				9D46283A1D34719100346A5B /* RNPNotification.h */,
 				9D46283B1D34719100346A5B /* RNPNotification.m */,
->>>>>>> Add iOS speech recognition
 				9D46283C1D34719100346A5B /* RNPPhoto.h */,
 				9D46283D1D34719100346A5B /* RNPPhoto.m */,
+			);
+			name = permissions;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -153,7 +145,7 @@
 		9D23B3471C767B80008B4819 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0710;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Yonah Forst";
 				TargetAttributes = {
 					9D23B34E1C767B80008B4819 = {
@@ -184,15 +176,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9D4628451D34719100346A5B /* RNPPhoto.m in Sources */,
-<<<<<<< HEAD
-=======
-				2894D7D21E25876700401A74 /* RNPSpeechRecognition.m in Sources */,
-				9D4628431D34719100346A5B /* RNPLocation.m in Sources */,
-				9D46283E1D34719100346A5B /* RNPAudioVideo.m in Sources */,
-				9D4628401D34719100346A5B /* RNPBluetooth.m in Sources */,
-				9DE8D28B1CA31E95009CE8CC /* RCTConvert+RNPStatus.m in Sources */,
-				9D4628421D34719100346A5B /* RNPEvent.m in Sources */,
->>>>>>> Add iOS speech recognition
+				281CD5911E26B0C8003A72B2 /* RNPSpeechRecognition.m in Sources */,
 				9DE8D2821CA3188D009CE8CC /* ReactNativePermissions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
