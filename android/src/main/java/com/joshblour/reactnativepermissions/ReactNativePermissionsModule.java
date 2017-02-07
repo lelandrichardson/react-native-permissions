@@ -45,7 +45,7 @@ public class ReactNativePermissionsModule extends ReactContextBaseJavaModule {
   }
 
   @ReactMethod
-  public void getPermissionStatus(String permissionString, Promise promise) {
+  public void getPermissionStatus(String permissionString, String nullForiOSCompat, Promise promise) {
     String permission = permissionForString(permissionString);
 
     // check if permission is valid
