@@ -109,7 +109,7 @@ Promises resolve into one of these statuses
 |`reminder`| ✔️ | ❌ |
 |`notification`| ✔️ | ❌ |
 |`backgroundRefresh`| ✔️ | ❌ |
-|`speechRecognition`| ✔️ | ❌ |
+|`storage`| ❌️ | ✔ |
 
 ###Methods
 | Method Name | Arguments | Notes
