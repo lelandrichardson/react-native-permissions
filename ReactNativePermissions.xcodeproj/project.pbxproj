@@ -25,6 +25,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+        9D23B34F1C767B80008B4819 /* libReactNativePermissions.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libReactNativePermissions.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D46283C1D34719100346A5B /* RNPPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RNPPhoto.h; path = permissions/RNPPhoto.h; sourceTree = SOURCE_ROOT; };
 		9D46283D1D34719100346A5B /* RNPPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RNPPhoto.m; path = permissions/RNPPhoto.m; sourceTree = SOURCE_ROOT; };
 		9DE8D2801CA31888009CE8CC /* ReactNativePermissions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReactNativePermissions.h; sourceTree = SOURCE_ROOT; };
@@ -68,14 +69,10 @@
 				9DE8D28A1CA31E95009CE8CC /* RCTConvert+RNPStatus.m */,
 				9DE8D2801CA31888009CE8CC /* ReactNativePermissions.h */,
 				9DE8D2811CA3188D009CE8CC /* ReactNativePermissions.m */,
-			);
-			path = ReactNativePermissions;
-			sourceTree = "<group>";
-		};
 				9D46283C1D34719100346A5B /* RNPPhoto.h */,
 				9D46283D1D34719100346A5B /* RNPPhoto.m */,
 			);
-			name = permissions;
+			path = ReactNativePermissions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,7 +132,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				9D4628451D34719100346A5B /* RNPPhoto.m in Sources */,
-				281CD5911E26B0C8003A72B2 /* RNPSpeechRecognition.m in Sources */,
 				9DE8D2821CA3188D009CE8CC /* ReactNativePermissions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
