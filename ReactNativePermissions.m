@@ -31,7 +31,7 @@ RCT_EXPORT_MODULE();
 {
     if (self = [super init]) {
     }
-    
+
     return self;
 }
 
@@ -56,10 +56,10 @@ RCT_EXPORT_METHOD(openSettings)
     }
 }
 
-RCT_REMAP_METHOD(getPermissionStatus, getPermissionStatus:(RNPType)type json:(id)json resolve:(RCTPromiseResolveBlock)resolve rejecter:(RCTPromiseRejectBlock)reject)
+RCT_REMAP_METHOD(getPermissionStatus, getPermissionStatus:(RNPType)type resolve:(RCTPromiseResolveBlock)resolve rejecter:(RCTPromiseRejectBlock)reject)
 {
     NSString *status;
-    
+
     switch (type) {
         case RNPTypePhoto:
             status = [RNPPhoto getStatus];
